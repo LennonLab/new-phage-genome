@@ -61,3 +61,11 @@ prokka --cpus 0 --compliant --centre IU --outdir "${OUT}" --prefix vB_Bmeg_DW2 -
 (6) map reads to assembled (phannotae gbk as ref)
 sbatch code/map2assembly.sh
 
+map reads to assembled (bowtie2)
+bash sbatch code/bowtie2assembly.sh
+#plot
+module load r
+Rscript code/plot-cvg.R 
+(7) 
+ blastn -db nt -query phanotate.fa -out results-blastn.out -remote
+
