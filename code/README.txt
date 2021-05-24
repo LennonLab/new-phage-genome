@@ -69,3 +69,7 @@ Rscript code/plot-cvg.R
 (7) 
  blastn -db nt -query phanotate.fa -out results-blastn.out -remote
 
+(8) tRNA scan with tRNA-scanSE (http://trna.ucsc.edu/tRNAscan-SE/)
+no tRNA found in unicycler assembly
+new-phage-genome/trna-scan/tRNAscan-SE Search Server.html
+
