@@ -1,3 +1,8 @@
+# Data
+/data/*
+/assembly/*
+
+
 # History files
 .Rhistory
 .Rapp.history
